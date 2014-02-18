@@ -23,6 +23,7 @@ let b:current_syntax = ''
 unlet b:current_syntax
 syntax include @Jinja syntax/django.vim
 
+set commentstring=#%s
 let g:NERDCustomDelimiters = {
   \ 'sls': { 'left': '#' },
 \ }
